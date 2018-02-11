@@ -1,3 +1,63 @@
 body {
     padding-top: 5rem;
+    background: #0B0C10;
 }
+
+.details{
+    width:100%;
+    border:2px solid black;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    background:#66FCF1;
+}
+
+.bio{
+    background:#45A29E;
+}
+
+p{
+    color:#C5C6C7;
+}
+
+image{
+    margin:auto;
+    border-radius: 50%;
+    padding:10px;
+}
+
+.info{
+    margin:auto;
+    display: flex;
+    justify-content: space-between;
+    width:50%;
+}
+
+.info{
+    font-weight:bold;
+}
+
+h4{
+    font-size:1.35em;
+}
+
+button {
+    border-radius:15px;
+    padding:10px;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #1F2833;
+    text-align: center;
+    cursor: pointer;
+    width: 20%;
+    font-size: 18px;
+}
+
+button:hover, a:hover {
+    opacity: 0.7;
+} 
